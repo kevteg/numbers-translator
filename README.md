@@ -4,6 +4,8 @@ This API can help you translate your numbers to plain english! (Up to a quadrill
 
 This API makes use of docker + django rest 🐳 🐍
 
+You can also try the API online here: https://kevteg.pythonanywhere.com/num_to_english
+
 ## Setting up the project
 
 ### Building the App (This will install requirements + Python image)
