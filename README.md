@@ -66,7 +66,7 @@ Body:
 }
 ```
 
-- Negative numbers or greater than a quadrillion are not allowed:
+- Negative numbers or greater than a quadrillion are not allowed: (400)
 
 ```
 {
@@ -76,5 +76,11 @@ Body:
 }
 ```
 
-
+- If there is an internal error you'll get a 500 error:
+```
+{
+    "status": "error",
+    "error_description": "an internal exception",
+    "num_in_english": null
+}
 
