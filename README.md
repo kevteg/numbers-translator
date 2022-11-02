@@ -40,7 +40,7 @@ Usage example: `/num_to_english`
 Body:
 ```
 {
-    "number": 123455678
+    "number": 12345678
 }
 ```
 
