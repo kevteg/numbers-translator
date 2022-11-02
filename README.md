@@ -2,7 +2,7 @@
 
 This API can help you translate your numbers to plain english! (Up to a quadrillion, 15 zeros!) 🎊
 
-This API makes use of docker + django rest 🐳 🐍
+This project makes use of docker + django rest 🐳 🐍
 
 You can also try the API online here: https://kevteg.pythonanywhere.com/num_to_english
 
