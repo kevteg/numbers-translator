@@ -8,9 +8,12 @@ def __low_number_to_english(number):
     if number <= 20:
         text_number = NUMBERS[number]
     else:
+        rest_text = ""
         rest = number % 10
         initial = number - rest
-        text_number = f"{NUMBERS[initial]} {NUMBERS[rest]}"
+        if rest > 0:
+            rest_text = NUMBERS[rest]
+        text_number = f"{NUMBERS[initial]} {rest_text}"
     return text_number
 
 
